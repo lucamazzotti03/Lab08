@@ -91,7 +91,7 @@ class Model:
                 if c.data.month == mese and c.data.day in range(1, 8):
                     consumi_giorni.append(c.kwh)
             risultato[impianto.id] = consumi_giorni
-        print(risultato)
+        #print(risultato)
         return risultato
 
 
